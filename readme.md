@@ -1,9 +1,13 @@
-Animal Fun Facts
-In this project, we’ll build a program that allows users to click an animal on the screen in order to have a fun fact pop up.
+# Animal Facts App
 
-<img src="https://content.codecademy.com/courses/React/react_jsx_project_preview.gif">
+This project is a simple React application that displays fun facts about various animals when the user clicks on their images. The application includes a background image, a title, and a section where the animal images and facts are displayed.
 
-title
+## Component Overview
 
-Our program will display a selection of animals on the screen. We’ll be allowed to decide if we want to include a background or not. Clicking an animal will cause a fact to be randomly selected from a list of potential options. The selected fact will pop up on the screen. As we keep clicking, we’ll be able to see different facts.
+The App component is a functional React component that renders the main content of the application. It dynamically generates animal images and displays a random fact about the clicked animal.
 
+### Key Features
+
+- Dynamic Image Generation: The application generates a list of animal images from an imported animals object.
+- Event Handling: When an animal image is clicked, a random fact about that animal is displayed.
+- Conditional Rendering: The application conditionally displays a background image based on a boolean flag.

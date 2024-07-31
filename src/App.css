@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.title {
+  font-size: 2.8em;
+  color: #333;
+  margin: 20px 0;
+  position: relative;
+  z-index: 1;
+  top: 20%;
+  font-weight: 700;
+}
+
+.animals {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+  flex-direction: row;
+}
+
+.animal {
+  width: 400px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.animal:hover {
+  transform: scale(1.1);
+  border: 2px solid #333;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+}
+
+#fact {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+  top: 20%;
+  color: #333;
+  font-weight: 600;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
